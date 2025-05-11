@@ -1,6 +1,5 @@
 import random
 import time
-from multiprocessing.connection import answer_challenge
 from time import sleep
 
 import winsound
@@ -40,9 +39,16 @@ def load_settings():
         with open("settings.json", "r") as file:
             settings = json.load(file)
             return settings
-    except (json.JSONDecodeError, FileNotFoundError) as e:
-        print(f"Error loading settings: {e}")
+    except FileNotFoundError:
+        print("No settings.json found. Creating default...")
+        default = {"BPM": 260, "FREQUENCY": 1000, "LINES": 1, "CHARS_PER_LINE": 5}
+        with open("settings.json", "w") as f:
+            json.dump(default, f, indent=4)
+        return default
+    except json.JSONDecodeError:
+        print("settings.json is invalid. Using default settings.")
         return {}
+
 
 # Applying settings from the loaded JSON file
 settings = load_settings()
@@ -74,7 +80,7 @@ def generate_and_play(chars):
         print(f"\nLine {line + 1}: Playing...")
 
         for char in random_chars:
-            morse = MORSE_CODE_DICT[char]
+            morse = MORSE_CODE_DICT[char.upper()]
             play_morse(morse)
             time.sleep(DOT_DURATION * 3 / 1000.0)
 
@@ -85,6 +91,14 @@ def generate_and_play(chars):
             print(f"\nLine {index + 1}: {' '.join(line_chars)}")
             for char in line_chars:
                 print(f"{char}: {MORSE_CODE_DICT[char]}")
+
+    answer2 = input("\ndo you wanna do it again?")
+
+    if answer2 in ["yes", "y", "Yes", "YES", "Y"]:
+        user_input()
+    if answer2 in ["no", "n", "No", "NO", "N"]:
+        exit(0)
+
     else:
         print("Okay, results will not be shown.")
 
@@ -93,17 +107,17 @@ def show_the_chars (chars):
 
     if answer in ["yes", "y", "Yes", "YES", "Y"]:
         for char in chars:
-            morse = MORSE_CODE_DICT[char]
+            morse = MORSE_CODE_DICT[char.upper()]
             print(f"{char}: {morse}")
             play_morse(morse)
             time.sleep(DOT_DURATION * 3 / 1000.0)
 
         answer2 = input("\nAre you ready to listen some random characters?")
 
-        if answer in ["yes", "y", "Yes", "YES", "Y"]:
+        if answer2 in ["yes", "y", "Yes", "YES", "Y"]:
             time.sleep(2)
             generate_and_play(chars)
-        if answer in ["no", "n", "No", "NO", "N"]:
+        if answer2 in ["no", "n", "No", "NO", "N"]:
             user_input()
 
     if answer in ["no", "n", "No", "NO", "N"]:
@@ -117,16 +131,16 @@ def show_the_chars (chars):
 def part1():
     chars = list('ADIK')
     show_the_chars(chars)
-    #generate_and_play(chars)
 
 def part2():
     chars = list('BCEF')
-    generate_and_play(chars)
+    show_the_chars(chars)
 
 def all_chars(include_numbers=True):
     chars = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
     if include_numbers:
          chars += list('0123456789')
+    show_the_chars(chars)
 
 # User input function
 def user_input():
