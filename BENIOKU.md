@@ -2,7 +2,7 @@
 
 **CW_TRAINER**, Mors alfabesi çalışmaları için geliştirilmiş bir eğitim aracıdır.
 
-For engllish (/README.md)
+For engllish [a relative link](README.md)
 
 ## 📥 Kurulum ve Çalıştırma
 
