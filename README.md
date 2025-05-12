@@ -1,4 +1,4 @@
-# 🔊 Random Morse Code Generator with Sound
+# CW_TRAINER BY EKIN EFE GUNGOR
 
 This Python project generates random characters (letters and/or numbers), converts them into Morse code, and plays them as audio beeps.
 
