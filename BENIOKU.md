@@ -1,6 +1,7 @@
 # CW_TRAINER - Ekin Efe GÜNGÖR tarafından geliştirilmiştir
 
 **CW_TRAINER**, Mors alfabesi çalışmaları için geliştirilmiş bir eğitim aracıdır.
+
 For engllish (/README.md)
 
 ## 📥 Kurulum ve Çalıştırma
