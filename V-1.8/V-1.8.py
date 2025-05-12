@@ -91,19 +91,21 @@ def generate_and_play(chars):
             print(f"\nLine {index + 1}: {' '.join(line_chars)}")
             for char in line_chars:
                 print(f"{char}: {MORSE_CODE_DICT[char]}")
+    else:
+        print("Okay, results will not be shown.")
+        user_input()
 
-    answer2 = input("\ndo you wanna do it again?")
+    answer2 = input("\ndo you wanna do it again? (yes/no)\t")
 
     if answer2 in ["yes", "y", "Yes", "YES", "Y"]:
         user_input()
     if answer2 in ["no", "n", "No", "NO", "N"]:
         exit(0)
-
     else:
-        print("Okay, results will not be shown.")
+        user_input()
 
 def show_the_chars (chars):
-    answer = input("\nWould you like to see the chars first? (yes/no)")
+    answer = input("\nWould you like to see the chars first? (yes/no)\t")
 
     if answer in ["yes", "y", "Yes", "YES", "Y"]:
         for char in chars:
@@ -112,12 +114,14 @@ def show_the_chars (chars):
             play_morse(morse)
             time.sleep(DOT_DURATION * 3 / 1000.0)
 
-        answer2 = input("\nAre you ready to listen some random characters?")
+        answer2 = input("\nAre you ready to listen some random characters? (yes/no)\t")
 
         if answer2 in ["yes", "y", "Yes", "YES", "Y"]:
             time.sleep(2)
             generate_and_play(chars)
         if answer2 in ["no", "n", "No", "NO", "N"]:
+            user_input()
+        else:
             user_input()
 
     if answer in ["no", "n", "No", "NO", "N"]:
@@ -162,4 +166,8 @@ def user_input():
 
 # Start program
 if __name__ == "__main__":
+    print("\n\t  CW_Trainer"
+          "\n\t      BY"
+          "\n\tEkin Efe GUNGOR"
+          "\n\t    V-1.8\n\n")
     user_input()
