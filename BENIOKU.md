@@ -9,6 +9,9 @@
 ## 📥 Kurulum ve Çalıştırma
 
 1. En güncel sürümün **ZIP dosyasını indirin**.
+
+![Mors Eğitmeni Ekran Görüntüsü](Navigation_Pictures/1.png)
+
 2. İndirilen ZIP dosyasını bilgisayarınızda bulun ve **klasöre çıkartın**.
 3. Açılan klasörde en son sürüm klasörüne (örneğin `V-1.8`) girin.
 4. `dist` klasörünün içinde şu iki dosyayı göreceksiniz:
@@ -19,7 +22,6 @@
 
 5. `.exe` dosyasını çift tıklayarak uygulamayı başlatın.
 
-![Mors Eğitmeni Ekran Görüntüsü](Navigation_Pictures/1.png)
 
 ---
 
