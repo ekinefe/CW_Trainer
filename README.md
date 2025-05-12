@@ -9,6 +9,9 @@ Welcome to **CW_TRAINER**, a Morse code training tool.
 ## 📥 How to Install and Run
 
 1. **Download the ZIP file** of the latest release from the repository.
+
+![Morse Trainer Screenshot](Navigation_Pictures/1.png)
+
 2. Locate the ZIP file on your computer and **extract (unzip)** it.
 3. Open the extracted folder and navigate to the latest version (e.g., `V-1.8`).
 4. Inside the `dist` folder, you’ll find two files:
@@ -18,8 +21,6 @@ Welcome to **CW_TRAINER**, a Morse code training tool.
    > ⚠️ If you don't see the `settings.json` file initially, it will be created automatically after you run the `.exe` file for the first time.
 
 5. **Run the `.exe` file** by double-clicking it.
-
-![Morse Trainer Screenshot](Navigation_Pictures/1.png)
 
 ---
 
