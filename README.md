@@ -43,7 +43,7 @@ You can personalize CW_TRAINER by editing the `settings.json` file:
 
 Encountering a bug or have suggestions? Your feedback is vital to improving this project. Here’s how you can report an issue:
 
-1. Go to the [Issues](https://github.com/YourUsernameHere/RepoNameHere/issues) tab of this GitHub repository.
+1. Go to the [Issues](https://github.com/ekinefe/CW_Trainer/issues) tab of this GitHub repository.
 2. Click the **"New issue"** button.
 3. Provide a clear description of the problem or your feature request.
 4. Add screenshots if possible to help illustrate the issue.
