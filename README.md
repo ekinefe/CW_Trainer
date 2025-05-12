@@ -1,6 +1,10 @@
-# CW_TRAINER by Ekin Efe GUNGOR
+# CW_TRAINER by Ekin Efe GÜNGÖR
 
 Welcome to **CW_TRAINER**, a Morse code training tool.
+
+📄 Türkçe versiyon için: [BENIOKU.md](BENIOKU.md)
+
+---
 
 ## 📥 How to Install and Run
 
@@ -11,7 +15,7 @@ Welcome to **CW_TRAINER**, a Morse code training tool.
    - `settings.json`
    - `V-1.8.exe` (the main executable)
 
-   > ⚠️ If you don't see the `settings.json` file at first, it will be created automatically after you run the `.exe` file for the first time.
+   > ⚠️ If you don't see the `settings.json` file initially, it will be created automatically after you run the `.exe` file for the first time.
 
 5. **Run the `.exe` file** by double-clicking it.
 
@@ -21,22 +25,26 @@ Welcome to **CW_TRAINER**, a Morse code training tool.
 
 ## ⚙️ Editing Settings
 
-You can customize the app by editing the `settings.json` file.
+You can customize the app using the `settings.json` file:
 
-1. Right-click on `settings.json` and choose **"Open with"** > `Notepad` or `Notepad++`.
-2. Modify the values (e.g., `BPM`, `FREQUENCY`, `LINES`, `CHARS_PER_LINE`) as needed.
-3. Press **CTRL + S** to save your changes.
+1. Right-click `settings.json` and choose **"Open with"** > `Notepad` or `Notepad++`.
+2. Modify the values according to your preferences:
+   - `BPM` – Beats per minute
+   - `FREQUENCY` – Tone frequency in Hz
+   - `LINES` – Number of lines per session
+   - `CHARS_PER_LINE` – Characters per line
+3. Save your changes with **CTRL + S**.
 4. Run the `.exe` file again to apply the new settings.
 
 ---
 
 ## 🛠 Troubleshooting
 
-If you experience any errors or issues:
+If you encounter any errors or issues:
 
-- Please report them by opening an issue on the GitHub repository.
-- This program is still under development, and your feedback is valuable for future improvements.
+- Please open an issue on the GitHub repository.
+- The app is still under development, and your feedback is greatly appreciated to help improve it.
 
 ---
 
-Thanks for using **CW_TRAINER**! 🚀
+Thank you for using **CW_TRAINER**! 🚀
