@@ -2,20 +2,22 @@
 
 **CW_TRAINER**, Mors alfabesi çalışmaları için geliştirilmiş bir eğitim aracıdır.
 
-For engllish [a relative link](README.md)
+👉 [Click here for English version](README.md)
+
+---
 
 ## 📥 Kurulum ve Çalıştırma
 
 1. En güncel sürümün **ZIP dosyasını indirin**.
 2. İndirilen ZIP dosyasını bilgisayarınızda bulun ve **klasöre çıkartın**.
 3. Açılan klasörde en son sürüm klasörüne (örneğin `V-1.8`) girin.
-4. `dist` klasörünün içinde iki dosya bulacaksınız:
+4. `dist` klasörünün içinde şu iki dosyayı göreceksiniz:
    - `settings.json`
    - `V-1.8.exe` (çalıştırılabilir dosya)
 
-   > ⚠️ `settings.json` dosyasını ilk başta görmüyorsanız endişelenmeyin — `.exe` dosyasını ilk kez çalıştırdığınızda otomatik olarak oluşturulacaktır.
+   > ⚠️ `settings.json` ilk çalıştırmadan önce görünmeyebilir. Bu dosya, `.exe` ilk çalıştırıldığında otomatik oluşturulacaktır.
 
-5. **`.exe` dosyasını çift tıklayarak çalıştırın**.
+5. `.exe` dosyasını çift tıklayarak uygulamayı başlatın.
 
 ![Mors Eğitmeni Ekran Görüntüsü](Navigation_Pictures/1.png)
 
@@ -23,23 +25,26 @@ For engllish [a relative link](README.md)
 
 ## ⚙️ Ayarları Düzenleme
 
-Ayarları kendinize göre değiştirmek için `settings.json` dosyasını düzenleyebilirsiniz.
+Ayarları değiştirmek için `settings.json` dosyasını düzenleyebilirsiniz:
 
-1. `settings.json` dosyasına sağ tıklayın ve **"Birlikte Aç"** > `Not Defteri` veya `Notepad++` seçeneğini kullanın.
-2. Aşağıdaki ayarları ihtiyacınıza göre düzenleyin:
-   - `BPM`, `FREQUENCY`, `LINES`, `CHARS_PER_LINE`
-3. Düzenlemeyi tamamladıktan sonra **CTRL + S** ile dosyayı kaydedin.
-4. Ayarların geçerli olması için `.exe` dosyasını yeniden çalıştırın.
+1. Dosyaya sağ tıklayın, ardından **"Birlikte Aç"** > `Not Defteri` veya `Notepad++` seçin.
+2. Şu ayarları isteğinize göre düzenleyin:
+   - `BPM` (Dakikadaki vuruş sayısı)
+   - `FREQUENCY` (Ton frekansı)
+   - `LINES` (Satır sayısı)
+   - `CHARS_PER_LINE` (Her satırdaki karakter sayısı)
+3. Değişiklikleri **CTRL + S** ile kaydedin.
+4. `.exe` dosyasını tekrar çalıştırarak yeni ayarları kullanabilirsiniz.
 
 ---
 
 ## 🛠 Sorun Giderme
 
-Bir hata veya sorunla karşılaşırsanız:
+Bir hata veya beklenmeyen durumla karşılaşırsanız:
 
-- GitHub üzerindeki projeye **Issue (sorun bildirimi)** açarak bildirebilirsiniz.
-- Program hâlâ geliştirme aşamasındadır ve geri bildirimleriniz gelecek sürümler için çok önemlidir.
+- GitHub üzerinden **Issue (sorun bildirimi)** oluşturabilirsiniz.
+- Uygulama hâlâ geliştirme aşamasındadır — katkılarınız ve geri bildirimleriniz çok değerlidir!
 
 ---
 
-**CW_TRAINER**’ı kullandığınız için teşekkür ederiz! 🚀
+Teşekkürler! **CW_TRAINER**’ı kullandığınız için mutluyuz. 🚀
