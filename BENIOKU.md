@@ -4,7 +4,7 @@
 
 📄 English version: [README.md](README.md)
 
-📄 Windows Icin `.exe` Derleme Rehberi: [Windows_Icin_EXE_Derleme_Rehberi.md](Windows_Icin_EXE_Derleme_Rehberi)
+📄 Windows Icin `.exe` Derleme Rehberi: [Windows_Icin_EXE_Derleme_Rehberi.md](Windows_Icin_EXE_Derleme_Rehberi.md)
 
 ---
 
