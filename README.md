@@ -4,7 +4,7 @@ Welcome to **CW_TRAINER**, a Morse code training tool designed to help you pract
 
 📄 Türkçe versiyon için: [BENIOKU.md](BENIOKU.md)
 
-📄 Compile To `.EXE` for Windows: [Compile To `.EXE` for Windows](Compile_to_EXE_Windows.md)
+📄 Compile To `.EXE` for Windows: [Compile_to_EXE_Windows.md](Compile_to_EXE_Windows.md)
 
 ---
 
