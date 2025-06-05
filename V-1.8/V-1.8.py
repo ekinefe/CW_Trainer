@@ -168,6 +168,6 @@ def user_input():
 if __name__ == "__main__":
     print("\n\t  CW_Trainer"
           "\n\t      BY"
-          "\n\tEkin Efe GUNGOR"
+          "\n\tEkin Efe "
           "\n\t    V-1.8\n\n")
     user_input()

@@ -158,6 +158,6 @@ def user_input():
 if __name__ == "__main__":
     print("\\n\\t  CW_Trainer"
           "\\n\\t      BY"
-          "\\n\\tEkin Efe GUNGOR"
-          "\\n\\t    V-1.9 (macOS Ready)\\n")
+          "\\n\\tEkin Efe "
+          "\\n\\t    V-1.9 (WINDOWS READY)\\n")
     user_input()
